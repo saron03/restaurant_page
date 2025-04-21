@@ -1,0 +1,86 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color:whitesmoke;
+}
+
+.contact-title {
+    font-size: 2.2rem;
+    color:darkcyan; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    color:darkslategrey 
+}
+
+input, textarea {
+    padding: 0.9rem;
+    font-size: 1rem;
+    border: 1px solid darkslategray;
+    border-radius: 6px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color:aquamarine;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    padding: 1rem;
+    background-color:darkcyan;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.submit-btn:hover {
+    background-color:forestgreen; 
+    transform: scale(1.05); 
+}
+
+.submit-btn:active {
+    transform: scale(1);
+}
+
+input, textarea {
+    background-color: #fafafa; 
+    color: #333;
+}
